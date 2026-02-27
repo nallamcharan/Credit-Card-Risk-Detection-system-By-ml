@@ -2,7 +2,7 @@
 
 # Objective  ::
 
-Build a credit risk detection system using random forest classifier and i should detect whether the customer will pay back or not before accepting loan
+Build a credit risk detection system using random forest classifier and it should detect whether the customer will pay back or not before accepting loan
 
 Deploy it into online by using flask
 
