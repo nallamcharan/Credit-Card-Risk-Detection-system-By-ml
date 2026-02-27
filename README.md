@@ -2,9 +2,11 @@
 
 # Objective  ::
 
-Build a credit risk detection system using random forest classifier and it should detect whether the customer will pay back or not before accepting loan
+Build a End to End  credit risk detection system for production ready by using PIPELINE..
 
-Deploy it into online by using flask
+It should detect whether the customer will pay back or not before accepting loan
+
+Deploy it into online by using flask for credit risk checking through web interface 
 
 # Data Set Overview:
 
