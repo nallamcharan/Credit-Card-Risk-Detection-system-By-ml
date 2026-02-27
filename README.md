@@ -1,6 +1,6 @@
 # Problem Statement :: Some customers  get loans from finance companies  and they do not pay back .so that ,business will get  into financial loses.
 
-# Object ::
+# Objective  ::
 
 Build a credit risk detection system using random forest classifier and i should detect whether the customer will pay back or not before accepting loan
 
@@ -66,8 +66,12 @@ I followed   random forest classifier model to develop this detection system .
   SMOTE() # for handing imbalanced data 
   
   sklearn.pipeline.Pipeline ()
+
+# step -6.1 Hyper Parameter Tuning : 
+
+   girdsearchcv() for good hyper parameters and improve model peroformance
   
-# Step-7 : Model Trianing
+# Step-7 : Model Training
 
   model_pipeline.fit()  #training model by using pipeline
 
@@ -80,6 +84,24 @@ I followed   random forest classifier model to develop this detection system .
   accuracy_score(), Classifiacation_report () , roc_auc () ,confusion_matrix() 
 
   cross validation score 
+
+  Feature Importances 
+
+  Shap Values 
+
+   
+# Step-10 : Models Saving 
+
+  Used joblib/pickle to save developed model 
+  
+# Step-10 : Model Deployment 
+
+  Used Flask API to connect home page and result page.
+
+  Developed two websites by using HTML called Home and Result pages and designed them using CSS.
+  
+  Conneted two websited by using flask api 
+  
 
 # ➡️ Ultimately the model generated 
 
